@@ -6,7 +6,7 @@ function insertionSort(nums) {
         let numberToInsert = nums[i];
 
         for (let j = i - 1; nums[j] >= 0 && nums[j] > numberToInsert; j--) {
-            nums[j+1] = nums[j]
+            nums[j + 1] = nums[j]
             nums[j] = numberToInsert
         }
     }
